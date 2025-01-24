@@ -13,3 +13,9 @@
   line-height: 16px;
   text-align: right;
 }
+
+@media screen and (max-width: 543px) {
+  .footer {
+    max-height: 14px;
+  }
+}
