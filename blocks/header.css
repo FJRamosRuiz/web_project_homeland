@@ -7,13 +7,6 @@
   align-self: center;
 }
 
-.logo {
-  display: flex;
-  align-self: center;
-  max-width: 255px;
-  margin: 34px 0 91px;
-}
-
 .header__title {
   max-width: 720px;
   justify-self: center;
@@ -42,14 +35,6 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .logo {
-    margin: 30px auto 90px;
-  }
-
-  .logo__image {
-    max-width: 254px;
-  }
-
   .header__title {
     max-width: 530px;
     font-family: "Inter";
@@ -71,15 +56,6 @@
 }
 
 @media screen and (max-width: 543px) {
-  .logo {
-    margin: 20px 0 50px;
-  }
-
-  .logo__image {
-    max-width: 188px;
-    max-height: 52px;
-  }
-
   .header__title {
     max-width: 228px;
     font-family: "Inter";

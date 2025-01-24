@@ -1,0 +1,27 @@
+.logo {
+  display: flex;
+  align-self: center;
+  max-width: 255px;
+  margin: 34px 0 91px;
+}
+
+@media screen and (max-width: 1023px) {
+  .logo {
+    margin: 30px auto 90px;
+  }
+
+  .logo__image {
+    max-width: 254px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .logo {
+    margin: 20px 0 50px;
+  }
+
+  .logo__image {
+    max-width: 188px;
+    max-height: 52px;
+  }
+}
