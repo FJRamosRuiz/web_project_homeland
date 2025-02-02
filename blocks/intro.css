@@ -1,11 +1,12 @@
 .intro {
-  max-width: 830px;
+  max-width: 984px;
   color: #fff;
-  margin: 92px 0;
+  margin: 92px auto 118px;
 }
 
 .intro__title {
   font-family: "Inter";
+  max-width: 830px;
   margin: 0;
   font-size: 54px;
   font-weight: 900;
